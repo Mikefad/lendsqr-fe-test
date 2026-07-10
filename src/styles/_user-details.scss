@@ -297,6 +297,13 @@ $teal: #39cdcc;
   }
 }
 
+@media (min-width: 1600px) and (min-height: 900px) {
+  .user-details-content {
+    width: calc(100% - 403px);
+    max-width: none;
+  }
+}
+
 @media (max-width: 1200px) {
   .user-details-content {
     width: calc(100% - 323px);

@@ -895,6 +895,19 @@ table {
   to { transform: rotate(360deg); }
 }
 
+@media (min-width: 1600px) and (min-height: 900px) {
+  .dashboard-page {
+    width: 100%;
+    min-height: 1384px;
+    zoom: 1;
+  }
+
+  .dashboard-content {
+    width: calc(100% - 403px);
+    max-width: none;
+  }
+}
+
 @media (max-width: 1200px) {
   .search-box {
     margin-left: 60px;
