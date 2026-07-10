@@ -4,10 +4,8 @@ A responsive implementation of the Lendsqr administration interface built with R
 
 ## Links
 
-- Deployment: `https://your-name-lendsqr-fe-test.vercel.app`
-- Repository: `https://github.com/your-username/lendsqr-fe-test`
-
-Replace these placeholders after deploying and publishing the repository.
+- Deployment: `https://michael-fadairo-lendsqr-fe-test.vercel.app`
+- Repository: `https://github.com/Mikefad/lendsqr-fe-test`
 
 ## Features
 
