@@ -11,6 +11,14 @@ $teal: #39cdcc;
   background: #fbfbfb;
 }
 
+@media (min-width: 901px) {
+  .dashboard-page {
+    width: 111.111%;
+    min-height: 111.111vh;
+    zoom: 0.9;
+  }
+}
+
 .top-nav {
   position: fixed;
   z-index: 30;
