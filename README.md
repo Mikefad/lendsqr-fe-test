@@ -169,7 +169,7 @@ Build locally before deploying:
 npm run build
 ```
 
-Deploy the generated Vite app to a static hosting provider such as Vercel or Netlify. After deployment, replace the placeholder deployment and repository URLs at the top of this README.
+Deploy the generated Vite app to a static hosting provider such as Vercel or Netlify. The deployed submission and repository links are provided at the top of this README.
 
 ## Testing
 
