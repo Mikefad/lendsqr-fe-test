@@ -1,0 +1,55 @@
+@use 'login';
+@use 'dashboard';
+@use 'user-details';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  color: #545f7d;
+  background: #fff;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a,
+button,
+input,
+select {
+  &:focus-visible {
+    outline: 3px solid rgb(57 205 204 / 45%);
+    outline-offset: 3px;
+  }
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
